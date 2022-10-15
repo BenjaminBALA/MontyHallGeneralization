@@ -1,0 +1,5 @@
+# MontyHallGeneralization
+
+This code generalizes the Monty Hall problem with a larger number of doors and a larger number of prizes. In the standard Monty Hall problem, there are three doors and one has a prize and 2 have goats behind them. When one door reveals that it is not the correct door, Monty asks whether the person wants to switch. The probability of winning by switching given the condition that the other door was incorrect increases based on the law of conditional probability. This code generalizes that problem where instead of 3 doors, there are k doors and instead of 1 prize there are h prizes.
+
+According to the printed probabilities, the chances of winning if you don't switch is .34 whereas the probability of winning if you do switch is .66. Therefore there is always a higher probability of winning given that you switch the door. The code generalizes for h prizes and opening a doors out of a total of k doors available. It seems that in most cases, it is beneficial to switch the door that you choose because of the conditional probability of switching.
