@@ -1,4 +1,4 @@
-# MontyHallGeneralization
+# Monty Hall Generalization
 
 This code generalizes the Monty Hall problem with a larger number of doors and a larger number of prizes. In the standard Monty Hall problem, there are three doors and one has a prize and 2 have goats behind them. One door is chosen and reveals what is behind it. After a door is selected, the host reveals a different door that is not the selected door and finds that that is not the correct door. Monty asks the person whether the person wants to switch their choice of doors. The probability of winning by switching given the condition that the other door was incorrect increases based on the law of conditional probability. This code generalizes that problem where instead of 3 doors, there are k doors and instead of 1 prize there are h prizes.
 
